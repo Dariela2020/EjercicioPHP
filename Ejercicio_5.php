@@ -11,7 +11,7 @@
       echo "<p>$x</p>"";
         $x++;
      }
-        echo "<p>Finaliza ciclo while</p>";
+        echo "<p>Finaliza ciclo while.</p>";
        $x = 10;
 
         while($x >=0){
