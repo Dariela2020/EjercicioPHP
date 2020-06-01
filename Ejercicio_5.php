@@ -6,19 +6,29 @@
 
 <?php
     header ("Content-type: text/html;charset=\"utf-8\"");
+    $x = 1;
+    while($x <=10){ 
+      echo "<p>$x</p>"";
+        $x++;
+     }
+        echo "<p>Finaliza ciclo while</p>";
+       $x = 10;
 
-    for ($i=1;$i<=10;$i++)
-    {
-        echo "<p>$i</p>";
+        while($x >=0){
+        echo "<p>$x</p>";
+        $x--;
     }
     echo "<p>Finaliza ciclo for</p>";
 
     $familia = array("Maria", "Ana", "Jose", "Pedro");
+     $x =0;
 
-    for ($i=0;$i<=sizeof($familia);$i++)
+    while($x<=sizeof($familia))
     {
-        echo "<h2>$familia[$i] numero de elemento $i </h2>";
+        echo "<h2>$familia[$x] numero de elemento $x </h2>";
         echo "<br>";
+        $x++;
+
     }
 
 ?>
